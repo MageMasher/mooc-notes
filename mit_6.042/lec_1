@@ -1,0 +1,106 @@
+Lec_1 notes
+
+What is a proof
+
+Experimentation and observation
+
+sampling and counter examples
+
+judge, jury
+
+word of god
+
+"I dont see why not" -> transferes responsibility to disprove to the others
+
+
+A mathematical proof is a verification of a proposition by a chain of logical deductions from a set of axioms.
+
+def: A proposition is a statement that is either true or false
+
+Ex. For all N in the set of natural numbers, n^2 + n + 4 is a prime number
+    quantifier       natural numbers         Above is a predicate whos truth depents on the value of a variable
+
+n     n**2 + n + 4     prime
+0     41               true
+1     43               true
+2     47               true
+3     53               true  
+40    1681             false
+41                     false
+
+
+
+Ex. a**4 + b**4 + c**4 = d**4 has no positive integer solutions
+
+a = 95800
+b = 217, 519
+c = 414,560
+d = 422,481
+
+there exist a,b,c,d in natural numbers, a**4+b**4+c**4=d**4
+
+Ex: 3/3(x**3) ....
+Solution is over 1000 digits long
+
+Ex:The regions in any map can be colored in 4 colors so that adjacent regions have different colors
+
+(four color theorem)
+
+Many false proofs of four color theorem
+
+proofs by picture are very convincing and often very wrong
+
+ex. every even integer but 2 is the sum of two primes.
+
+Golbach's conjecture, nobody knows if it is true.
+
+-----------------------------------------------
+proof
+
+for all n in z, n >= Z -> N**2 >= 4
+
+def: An implication p=> q is true if p is false or g is true
+
+Truthe Table
+------------
+p | q | p -> q
+T | T | T
+T | F | F
+F | T | T
+F | F | T
+
+pigsFly -> i'm king is true by implication
+
+Ex> For all integers in Z, n >= 2 <==> ( if and only if) n**2 >= 4
+
+F. n = -3
+
+Truth Table
+----------------------------------                                                                                                                                                                                                         
+p | q | p -> q | g -> p |                                                                                                                                                                                            
+T | T | T      |        |                                                                                                                                                                                   
+T | F | F      |        |                                                                                                                                                                                  
+F | T | T      |        |                                                                                                                                                                                 
+F | F | T      |        |
+
+######################################################################
+
+def: Axioms are propositions that we assume are true ( greek for "assume worthy")
+
+Ex: if a = b and b = c then a = c ( no proof, however its an axiom)
+
+Axioms can be contradictory in certain contexts
+
+Euclidean geometry: Given a line L and a point P not on L, there is exactly one line through P parallel to L
+Spherical geometry: Given a line L and a point P not on L, there is NO line on through P parallel to L
+Hyperbolic geometry:                                     , there are infinitely many lines through P parallel to L
+
+Two guiding principles to axioms:
+
+Axioms should be
+1. consistent
+2. complete
+
+def: a set of axioms is consistent if no proposition can be proved to be both true and false
+def: a set of axioms is complete if it can be used to prove every proposition is either true or false
+
